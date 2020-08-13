@@ -760,6 +760,10 @@ img {
     padding-bottom: 60px;
 }
 
+.section-padding-4 {
+    padding: 400px 0;
+}
+
 .section-title {
     margin-bottom: 35px;
     margin-top: -6px;
@@ -1383,12 +1387,12 @@ a#scrollUp {
 }
 
 .sticky-header {
-    background: #ffffff;
+    background: #f9f9f9;
     padding: 10px 0;
 }
 
 .navbar-brand img {
-    height: 106px;
+    height: 156px;
     width: auto;
 }
 
@@ -1439,6 +1443,29 @@ li.nav-item.dropdown .dropdown-toggle:before {
     right: -7px;
     top: 48%;
     transform: translateY(-48%);
+}
+
+.orangeText {
+color: #bdae87
+}
+
+.collageImg {
+    padding-top: 150px;
+}
+
+.statement{ 
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: small;
+    border: 1px solid black;
+}
+
+.fdaStatement {
+    padding: 30px 0px;
+    background-color: #f9f9f9;
+    m
 }
 
 @media (max-width: 991px) {
@@ -2088,6 +2115,39 @@ Hero Area
     margin-bottom: 20px;
 }
 
+.hero-left.hero-shade-2 {
+    text-align: center;
+    padding: 70px 20px;
+    background: #ffffff5c;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 500px) {
+    .hero-left.hero-shade-2 {
+        padding: 70px 10px;
+    }
+
+}
+
+@media (max-width: 400px) {
+     .hero-left.hero-shade-2 {
+        padding: 70px 5px;
+    }
+}
+
+@media (max-width: 350px) {
+    .hero-left.hero-shade-2 {
+        padding: 70px 2px;
+    }
+}
+
+.hero-left.hero-shade-2 img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 .hero-section .hero-area-2 .single-hero .hero-sub .table-cell .hero-left .video-play {
     font-size: 10px;
     height: 90px;
@@ -2114,6 +2174,13 @@ Hero Area
 
 .hero-section .hero-area-2 .single-hero .hero-caro img {
     width: 300px;
+    margin: auto;
+    height: auto;
+}
+
+.hero-caro-2 img {
+    width: 500px;
+    padding-top: 5rem;
     margin: auto;
     height: auto;
 }

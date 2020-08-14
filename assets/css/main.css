@@ -1148,12 +1148,12 @@ img {
 
 .btn-fill {
     color: #ffffff;
-    background: #0E8A70;
+    background: #D3804A;
 }
 
 .btn-fill:hover {
-    background: #ffffff;
-    color: #0E8A70;
+    background: #B4CB91;
+    color: #FFF;
     box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.05);
 }
 

@@ -1054,7 +1054,7 @@ img {
 }
 
 .yellow-light-bg {
-    background: #9AECDB;
+    background: #DEE7AE;
 }
 
 .purple-bg {
@@ -1814,7 +1814,7 @@ Footer Area
 */
 .footer-area {
     position: relative;
-    background: #212935;
+    background: #DEE7AE;
 }
 
 .footer-area .footer-social {
@@ -1835,7 +1835,7 @@ Footer Area
     display: inline-block;
     border: 2px solid #434a53;
     border-radius: 50%;
-    color: #ffffff;
+    color: #000000;
 }
 
 .footer-area .footer-social ul li a:hover {
@@ -1853,7 +1853,7 @@ Footer Area
 }
 
 .footer-area .footer-nav ul li a {
-    color: #ffffff;
+    color: #000000;
     font-weight: 400;
 }
 
@@ -2181,6 +2181,13 @@ Hero Area
 .hero-caro-2 img {
     width: 500px;
     padding-top: 5rem;
+    margin: auto;
+    height: auto;
+}
+
+.hero-caro-3 img {
+    width: 500px;
+    padding-top: 15rem;
     margin: auto;
     height: auto;
 }

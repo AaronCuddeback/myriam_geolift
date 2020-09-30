@@ -2327,6 +2327,10 @@ Hero Area
     z-index: -1;
 }
 
+#mc-embedded-subscribe-form {
+    background-color: #EAF0CB !important;
+}
+
 /*
 
 ===============================
